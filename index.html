@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ENCRIPTADOR</title>
+        <link rel="icon" href="img/candado.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <table background="fondo.gif"></table>
+    <body id="body">
+        <div id="pagina">
+            <div class="logo">
+                <img src="img/alura.png">
+            </div>
+
+            <div id="secretText">
+                <label for="ingTextAqui"> Ingrese solo letras minúsculas y sin acentos</label>
+                <textarea spellcheck="false"  type="text" id="ingTextAqui" placeholder="Ingrese texto aquí"></textarea>
+                <button id="reparar"><span class="material-symbols-outlined">build</span> Corregir</button>
+            </div>
+            
+            <div class="buttons">
+                <button id="btnEncriptar" class="button">ENCRIPTAR</button>
+                <button id="btnDesencriptar" class="button">DESENCRIPTAR</button>
+            </div>
+            
+            <div class="message">
+                <img id="image" src="img/secret.jpeg" alt="mensaje secreto">
+                <textarea readonly id="msg" placeholder="No se encontro ningún mensaje"></textarea>
+                <button id="copy">Copy</button>
+
+            </div>
+            <footer>
+                <p> ONE Oracle - Alura Latam - Challenge "Encriptador" &copy; // Jules9004 </p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
